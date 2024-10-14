@@ -363,3 +363,5 @@ MigrationBackup/
 .vscode/
 .vscode/*
 dev/
+.DS_Store
+.DS_Store
