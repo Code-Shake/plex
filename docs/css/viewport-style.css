@@ -15,3 +15,43 @@ insert meta:
 
 /* Telefono */
 @import url('viewport/phone.css') only screen and (max-width:400px);
+
+/* ---------------------------------------------------------------------------------------------- */
+
+@charset "UTF-8";
+/* CSS Document */
+
+@ms-viewport port and (width: device-width px) {
+  style {
+    select:valore;
+  }
+}
+
+/* --- media queries --- */
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px){
+  body {
+    /* background:#000; */
+}
+
+}
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:900px){
+ body {
+    /* background:#ff0; */
+}
+}
+@media screen and (max-width:768px){
+ body {
+    /* background:#0ff; */
+}
+}
+@media screen and (max-width:480px){
+ body {
+    /* background:#0f0; */
+}
+}
+/* --- fin del media queries --- */

@@ -32,6 +32,7 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
+
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
@@ -91,6 +92,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+
 
 # Chutzpah Test files
 _Chutzpah*
@@ -351,3 +353,14 @@ MigrationBackup/
 # mac os file
 .DS_Store
 *.DS_Store*
+
+
+# user ignore add
+
+*.zip
+*.psd
+._*
+
+.vscode/
+.vscode/*
+dev/
