@@ -350,4 +350,4 @@ MigrationBackup/
 
 # mac os file
 .DS_Store
-.DS_Store
+*.DS_Store*
