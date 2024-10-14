@@ -350,12 +350,11 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
+# user ignore add
+
 # mac os file
 .DS_Store
 *.DS_Store*
-
-
-# user ignore add
 
 *.zip
 *.psd
