@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800");
+
+/* https://blog.logrocket.com/what-should-modern-css-boilerplate-look-like/ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif, helvetica;
+  border: none;
+}
+
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+  -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  text-underline-position: under; /* Places underlines below the descenders */
+  text-decoration-thickness: 8; /* Sets the thickness as a percentage of the font size */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                 HTML5 display-role reset for older browsers                */
+/* -------------------------------------------------------------------------- */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    LISTA                                   */
+/* -------------------------------------------------------------------------- */
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+  list-style: none;
+}
+
+menu,
+ol,
+ul {
+  padding-left: 0;
+}
+
+article ol,
+article ul {
+  list-style-position: inside;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 FINE LISTA                                 */
+/* -------------------------------------------------------------------------- */
+
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
