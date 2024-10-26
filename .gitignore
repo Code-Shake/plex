@@ -364,3 +364,6 @@ MigrationBackup/
 .vscode/*
 dev/
 .DS_Store
+sync.ffs_lock
+
+.sync.ffs_db
